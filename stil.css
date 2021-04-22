@@ -1,4 +1,4 @@
-
+/* CSS DOSYASI */
 *{
     padding: 0;
     margin: 0;
@@ -8,7 +8,6 @@
 
 html{
     font-size: 16px;
-    //background-color: #636363;
 }
 
 .calculator{
