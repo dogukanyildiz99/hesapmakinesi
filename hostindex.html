@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang='tr'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stil.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <title>İstatistiksel Hesaplama</title>
+</head>
+<style>
+    body {
+        background-image: url('background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <center>
+                <div class="w3-bar w3-black w3-margin-top">
+                    <div class="input-group mb-3">
+                        <div class="w3-container w3-black ">
+                            <h2 style="color:#fff;font-family: 'Ubuntu', sans-serif;">
+                                İSTATİSTİKSEL HESAPLAMA
+                            </h2>
+                        </div>
+                        <div class="input-group mt-3  ">
+                            <input type="text" class="form-control"
+                                placeholder="Lütfen verileri virgülle ya da boşlukla ayırarak giriniz." id="commainput">
+                            <br><br>
+                            <div class="input-group">
+                                <div class="input-group mt-3  ">
+                                    <input type="file" id="myFile" class="form-control"
+                                        placeholder="Yüklemek istediğiniz verileri lütfen virgülle ya da boşlukla ayırarak giriniz."
+                                        id="commainput">
+                                    <br><br><button style="color: #fff;" onclick="loadFileAsText()">Oku</button><br>
+                                    <p style="color: #fff;"><b>Yüklenen Dosya İçeriği</b></p>
+                                    <textarea id="inputTextToSave"></textarea> <br />
+                                    <button style="color: #fff;" onclick="fonksiyon()">Kopyala</button>
+
+                                    <p style="color: #fff;"><b>Yukarıdaki metni değiştirebilirsiniz</b></p>
+                                    <br><br>
+                                    <div class="input-group">
+
+                                        <a href="#">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <input type="button" class="button" value="Mod" id="m">
+                                        </a><a href="#">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <input type="button" class="button" value="Gruplanmış Mod" id="gmode">
+                                        </a>
+
+                                        <a href="#">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <input type="button" class="button" value="Ortalama" id="mean">
+                                        </a>
+                                        <a href="#">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <input type="button" class="button" value="Gruplanmış Ortalama" id="gmean">
+                                        </a>
+
+                                        <a href="#">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <input type="button" class="button" value="Medyan" id="me">
+                                        </a>
+
+                                        <a href="#">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <input type="button" class="button" value="Gruplanmış Medyan" id="gmedian">
+                                        </a>
+                                        <a href="#">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <input type="button" class="button" value="Varyans" id="variance">
+                                        </a>
+                                        </li>
+                                        <a href="#">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <input type="button" class="button" value="Standart Sapma" id="sd">
+                                        </a>
+                                        </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="result" style="font-weight:bold;">Gruplanmış hesaplamalar için en az 10 veri
+                                    gereklidir. <br> Verilerinizi virgül ya da boşluk ile ayırınız bkz:
+                                    12,23,32,43,23 veya 35 12 53 23 14 76<br>
+                                    <br>
+                                    <span id="text1">12,23,32,43,23,35,12,53,23,14,76</span>
+                                    <button onclick="copy('text1')">Kopyala</button>
+                                    </span>
+                                    <p id="alert">Metin Kopyalandı!</p>
+                                </div><br><br>
+
+                                <!--Script-->
+                                <script src="script.js"></script>
+                                <script>
+                                    function loadFileAsText() {
+                                        var myFile = document.getElementById("myFile").files[0];
+
+                                        var fileReader = new FileReader();
+                                        fileReader.onload = function (fileLoadedEvent) {
+                                            var textFromFileLoaded = fileLoadedEvent.target.result;
+                                            document.getElementById("inputTextToSave").value = textFromFileLoaded;
+                                        };
+
+                                        fileReader.readAsText(myFile, "UTF-8");
+                                    }
+
+                                    function fonksiyon() {
+                                        let inputElement = document.createElement("input");
+                                        inputElement.type = "text";
+                                        let copyText = document.getElementById("inputTextToSave").value;
+                                        inputElement.value = copyText;
+                                        document.body.appendChild(inputElement);
+                                        inputElement.select();
+                                        document.execCommand('copy');
+                                        document.body.removeChild(inputElement);
+                                    }
+                                </script>
+
+                            </div>
+
+
+                        </div>
+            </center>
+        </div>
+    </div>
+</body>
+
+</html>
