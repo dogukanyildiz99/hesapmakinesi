@@ -164,10 +164,10 @@ $(document).ready(function () {
       if (numMapping[prop] >= greatestFreq) {
         greatestFreq = numMapping[prop];
         for (const el of arr) {
-          if(numMapping[el] < greatestFreq)
-            arr = arr.filter(function(value, index, arr){ 
+          if (numMapping[el] < greatestFreq)
+            arr = arr.filter(function (value, index, arr) {
               return value != el;
-          })
+            })
         }
         arr.push(prop);
       }
@@ -190,30 +190,6 @@ $(document).ready(function () {
       document.getElementById("result").innerHTML = "Mod = " + modeInArray(getReady()) + "<br><hr>Bir veri grubunda en çok tekrar eden değere mod denir.";
   }
 
-  /*function modeInArray(arr) {
-
-    var numMapping = {};
-    for (var i = 0; i < arr.length; i++) {
-      if (numMapping[arr[i]] === undefined) {
-        numMapping[arr[i]] = 0;
-      }
-      numMapping[arr[i]] += 1;
-    }
-    var greatestFreq = 0;
-    var mode;
-    var arr = [];
-    for (var prop in numMapping) {
-      if (numMapping[prop] >= greatestFreq) {
-        greatestFreq = numMapping[prop];
-        mode = prop;
-        arr.push(prop);
-      }
-    }
-    console.log(arr);
-    return parseInt(mode);
-  }*/
-
-  //mod sonu
 
   //medyan
 
