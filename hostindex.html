@@ -116,16 +116,39 @@
                                     </div>
                                 </div>
                                 <div id="result" style="font-weight:bold;">Gruplanmış hesaplamalar için en az 10 veri
-                                    gereklidir. <br> Verilerinizi virgül ya da boşluk ile ayırınız bkz:
-                                    12,23,32,43,23 veya 35 12 53 23 14 76<br>
-                                    <br>
+                                    gereklidir. <br> Örnek veri grubu:
                                     <span id="text1">12,23,32,43,23,35,12,53,23,14,76</span>
+                                    <br>
                                     <button onclick="copy('text1')">Kopyala</button>
+                                    <span>
+                                        <p id="alert">Metin Kopyalandı!</p>
                                     </span>
-                                    <p id="alert">Metin Kopyalandı!</p>
+                                </div><br><br>
+                                <div id="howto" style="font-weight:normal">
+                                    <h3><b>Nasıl Kullanılır?</b></h3>
+                                    <p style="text-align: left; ">
+                                        &nbsp;&nbsp; <b>1-</b> Virgül ya da boşluk ile ayrılmış verilerinizi en baştaki
+                                        kutucuğa giriniz.<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>a)</b> Verileri kutucuğa direkt klavye ile
+                                        girebilirsiniz. <br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>b)</b> Dosya seçici yardımıyla txt uzantılı
+                                        veri dosyanızı seçiniz ve <b>Oku</b> butonuna basınız.<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dosya içindeki veriler
+                                        <b>Yüklenen Dosya İçeriği</b> alanına düşecektir. Burada verileri değiştirebilir
+                                        ekleme ya da<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; çıkarma
+                                        yapabilirsiniz.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <b> Yüklenen Dosya İçeriği</b> alanındaki verileri <b>Kopyala</b> butonu ile
+                                        kopyalayınız.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        Kopyalanan verileri kutucuğa <b>ctrl + v</b> veya <b>sağ tık + Yapıştır</b>
+                                        ile yapıştırabilirsiniz.<br>
+                                        &nbsp;&nbsp; <b>2-</b> Kutucuğa verileri girdikten sonra sonucunu görmek
+                                        istediğiniz işlemi butonlardan seçiniz.
+                                    </p>
+
+                                    <br><br>
+                                    </table>
                                 </div><br><br>
 
-                                <!--Script-->
                                 <script src="script.js"></script>
                                 <script>
                                     function loadFileAsText() {
@@ -150,6 +173,7 @@
                                         document.execCommand('copy');
                                         document.body.removeChild(inputElement);
                                     }
+
                                 </script>
 
                             </div>
