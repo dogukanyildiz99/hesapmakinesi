@@ -12,6 +12,6 @@ Dosya ya da el ile girilen verileri okuyup üzerinde istenilen hesaplamaları ya
    1. Kutucuğa verileri girdikten sonra sonucunu görmek istediğiniz işlemi butonlardan seçiniz.  
  **Not:** Örnek Veri Grubu hesaplamasında Max Değer = Max + Min alınmaktadır.  
 ### Grup Üyeleri
-- Yunus Emre ÖZTEKİN
+- [Yunus Emre ÖZTEKİN](https://github.com/YunusEmreOztekinn)
 - [Uğur Can AKÇAY](https://github.com/UgurCanAkcay)
-- Doğukan YILDIZ
+- [Doğukan YILDIZ](https://github.com/dogukanyildiz99)
