@@ -10,7 +10,7 @@ Dosya ya da el ile girilen verileri okuyup üzerinde istenilen hesaplamaları ya
           **Yüklenen Dosya İçeriği** alanındaki verileri **Kopyala** butonu ile kopyalayınız.  
           Kopyalanan verileri kutucuğa **ctrl + v** veya **sağ tık + Yapıştır** ile yapıştırabilirsiniz.  
    1. Kutucuğa verileri girdikten sonra sonucunu görmek istediğiniz işlemi butonlardan seçiniz.  
-   **Not:** Örnek Veri Grubu hesaplamasında Max Değer = Max + Min alınmaktadır.  
+ **Not:** Örnek Veri Grubu hesaplamasında Max Değer = Max + Min alınmaktadır.  
 ### Grup Üyeleri
 - Yunus Emre ÖZTEKİN
 - Uğur Can AKÇAY
