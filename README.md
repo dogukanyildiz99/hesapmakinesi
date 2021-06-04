@@ -3,8 +3,8 @@
 Dosya ya da el ile girilen verileri okuyup üzerinde istenilen hesaplamaları yapıp çıkaran bir web sitesi.
 ### Nasıl Kullanılır?
    1. Virgül ya da boşluk ile ayrılmış verilerinizi en baştaki kutucuğa giriniz.  
-      1. Verileri kutucuğa direkt klavye ile girebilirsiniz.  
-      1. Dosya seçici yardımıyla txt uzantılı veri dosyanızı seçiniz ve Oku butonuna basınız.  
+      2. Verileri kutucuğa direkt klavye ile girebilirsiniz.  
+      2. Dosya seçici yardımıyla txt uzantılı veri dosyanızı seçiniz ve Oku butonuna basınız.  
           Dosya içindeki veriler Yüklenen Dosya İçeriği alanına düşecektir. Burada verileri değiştirebilir ekleme ya da  
           çıkarma yapabilirsiniz.  
           Yüklenen Dosya İçeriği alanındaki verileri Kopyala butonu ile kopyalayınız.  
