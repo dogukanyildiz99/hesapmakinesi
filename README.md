@@ -4,7 +4,7 @@ Dosya ya da el ile girilen verileri okuyup üzerinde istenilen hesaplamaları ya
 ![ssdogu2](https://user-images.githubusercontent.com/56637126/120776195-a0169700-c52c-11eb-8d2b-e7c9a01c4848.PNG)
 
  ### Projeyi Nasıl Çalıştırırım?
- - Güncel bir masaüstü web tarayıcısı ile rahatlıkla hesaplama  yapabilirsiniz.
+ - Güncel bir masaüstü veya mobil web tarayıcısı ile rahatlıkla hesaplama  yapabilirsiniz.
  - http://istatistiksel-hesaplama.eu5.org/ adresine gidip istediğiniz hesaplamaları yapabilirsiniz yada dilerseniz github üzerinden uygulama için tüm gerekli dosyalarıyla birlikte indirip, hostindex.html 'e girip hesaplama yapabilirsiniz.
  ![ssdogu](https://user-images.githubusercontent.com/56637126/120774321-d81cda80-c52a-11eb-80d4-6dd289aafbf9.png)
  ### Nasıl Kullanılır
