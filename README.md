@@ -13,8 +13,7 @@ Dosya ya da el ile girilen verileri okuyup üzerinde istenilen hesaplamaları ya
    1. Kutucuğa verileri girdikten sonra sonucunu görmek istediğiniz işlemi butonlardan seçiniz.  
  **Not:** Örnek Veri Grubu hesaplamasında Max Değer = Max + Min alınmaktadır.
  ### Projeyi Nasıl Çalıştırırım?
- - Projeyi herhangi bir masaüstü web tarayacısı ile http://istatistiksel-hesaplama.eu5.org/ adresine giderek çalıştırabilirsiniz.
- - http://istatistiksel-hesaplama.eu5.org/ adresine gidip istediğiniz hesaplamaları yapabilirsiniz yada dilerseniz github üzerinden uygulama için tüm gerekli dosyalarıyla birlikte indirip, hostindex.html 'e girip hesaplama yapabilirsiniz.
+ - Projede http://istatistiksel-hesaplama.eu5.org/ adresine gidip istediğiniz hesaplamaları yapabilirsiniz yada dilerseniz github üzerinden uygulama için tüm gerekli dosyalarıyla birlikte indirip, hostindex.html 'e girip hesaplama yapabilirsiniz.
  ![ssdogu](https://user-images.githubusercontent.com/56637126/120774321-d81cda80-c52a-11eb-80d4-6dd289aafbf9.png)
 ### Grup Üyeleri
 - [Yunus Emre ÖZTEKİN](https://github.com/YunusEmreOztekinn)
