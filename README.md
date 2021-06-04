@@ -1,7 +1,9 @@
 # İSTATİSTİKSEL HESAPLAMA
 ### Olasılık ve İstatistik Vize Proje Ödevi
 Dosya ya da el ile girilen verileri okuyup üzerinde istenilen hesaplamaları yapıp çıkaran bir web sitesi.
+
 ### Nasıl Kullanılır?
+Projeyi herhangi bir masaüstü web tarayacısı ile http://istatistiksel-hesaplama.eu5.org/ adresine giderek çalıştırabilirsiniz.
    1. Virgül ya da boşluk ile ayrılmış verilerinizi en baştaki kutucuğa giriniz.  
       1. Verileri kutucuğa direkt klavye ile girebilirsiniz.  
       1. Dosya seçici yardımıyla txt uzantılı veri dosyanızı seçiniz ve Oku butonuna basınız.  
