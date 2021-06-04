@@ -13,5 +13,5 @@ Dosya ya da el ile girilen verileri okuyup üzerinde istenilen hesaplamaları ya
  **Not:** Örnek Veri Grubu hesaplamasında Max Değer = Max + Min alınmaktadır.  
 ### Grup Üyeleri
 - Yunus Emre ÖZTEKİN
-- Uğur Can AKÇAY
+- [Uğur Can AKÇAY](https://github.com/UgurCanAkcay)
 - Doğukan YILDIZ
