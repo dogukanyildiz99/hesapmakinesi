@@ -22,4 +22,4 @@ Dosya ya da el ile girilen verileri okuyup üzerinde istenilen hesaplamaları ya
 - [Uğur Can AKÇAY](https://github.com/UgurCanAkcay)
 - [Doğukan YILDIZ](https://github.com/dogukanyildiz99)
 ## Site Oluşturulurken
-- HTML,CSS,Javascript gibi teknolojiler kullanıldı.
+- HTML, CSS, Javascript gibi teknolojiler kullanıldı.
