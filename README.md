@@ -1,6 +1,6 @@
 # İSTATİSTİKSEL HESAPLAMA
 ### Olasılık ve İstatistik Vize Proje Ödevi
-Dosya ya da el ile girilen verileri okuyup üzerinde istenilen hesaplamaları yapıp çıkaran bir web sitesi. <br>
+Dosya ya da el ile girilen verileri okuyup üzerinde istenilen hesaplamaları yapıp çıkaran bir web sitesi. <br><br>
 ![ssdogu2](https://user-images.githubusercontent.com/56637126/120775727-2a123000-c52c-11eb-9f63-7eb382674cc8.PNG)
 
  ### Projeyi Nasıl Çalıştırırım?
