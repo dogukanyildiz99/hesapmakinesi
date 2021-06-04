@@ -12,7 +12,9 @@ Projeyi herhangi bir masaüstü web tarayacısı ile http://istatistiksel-hesapl
           **Yüklenen Dosya İçeriği** alanındaki verileri **Kopyala** butonu ile kopyalayınız.  
           Kopyalanan verileri kutucuğa **ctrl + v** veya **sağ tık + Yapıştır** ile yapıştırabilirsiniz.  
    1. Kutucuğa verileri girdikten sonra sonucunu görmek istediğiniz işlemi butonlardan seçiniz.  
- **Not:** Örnek Veri Grubu hesaplamasında Max Değer = Max + Min alınmaktadır.  
+ **Not:** Örnek Veri Grubu hesaplamasında Max Değer = Max + Min alınmaktadır.
+ ### Nasıl İndirilir?
+ ![ssdogu](https://user-images.githubusercontent.com/56637126/120774321-d81cda80-c52a-11eb-80d4-6dd289aafbf9.png)
 ### Grup Üyeleri
 - [Yunus Emre ÖZTEKİN](https://github.com/YunusEmreOztekinn)
 - [Uğur Can AKÇAY](https://github.com/UgurCanAkcay)
